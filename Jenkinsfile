@@ -23,10 +23,10 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline executed successfully'
+            echo 'BUILD SUCCESS: All stages executed successfully'
         }
         failure {
-            echo 'Pipeline failed'
+            echo 'BUILD FAILURE: Something went wrong'
         }
     }
 }
